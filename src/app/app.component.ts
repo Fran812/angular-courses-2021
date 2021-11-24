@@ -21,5 +21,9 @@ export class AppComponent {
     console.log('obj',event)
   }
 
+  palabra:string = 'Hola Bienvenido, estoy envido datos soy del padre';
 
+  print(event:Event){
+    console.log(event)
+  }
 }
