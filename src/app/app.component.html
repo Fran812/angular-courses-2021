@@ -12,4 +12,15 @@
 <app-hijo (onSendData)="printData($event)"></app-hijo>
 <!-- -->
 <app-test2 [reciboDatos]="palabra" (ouSendData)="print($event)"></app-test2>
+ <br>
+
+<input type="text" [(ngModel)]="mystatus">
+<br>
+<br>
+<button (click)="sr = !sr">Destrue</button>
+<div *ngIf="sr">
+  <app-test3 
+[change]="mystatus">
+</app-test3>
+</div>
 

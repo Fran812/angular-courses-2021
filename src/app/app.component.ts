@@ -8,6 +8,8 @@ import { takeWhile } from 'rxjs/operators';
 })
 export class AppComponent {
   title = 'angularcourse2021';
+  mystatus= "my status";
+  sr=true;
 
   arregloPersonas:any[]=[
     {id:0,name:'fran'},

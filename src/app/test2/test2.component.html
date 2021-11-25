@@ -1,4 +1,11 @@
 <div style="border:5px solid red; margin-top:5px">
   {{ reciboDatos }}
-  <button style="background-color:black;border-radius:5px;color:#fff;padding:3px" (click)="sendAny($event)">Send Data Outside</button>
-</div>
+  <button style="background-color:black;border-radius:5px;color:#fff;padding:3px" (click)="sendAny()">Send Data Outside</button><br><br>
+  {{myval}}
+  <br>
+   <br>
+  <input type="number" [(ngModel)]="myval">
+  <input type="number" [(ngModel)]="myva2">
+
+  <button (click)="test()">Click Here!</button>
+</div> 
